@@ -1,0 +1,10 @@
+#footer {
+    min-height: 100px;
+    background-color:rgb(180, 176, 176);
+    color:rgb(117, 117, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 14px;
+}

@@ -1,0 +1,47 @@
+#header {
+    min-height: 300px;
+    background-color: rgb(25, 18, 65);
+    color:moccasin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/daylight-environment-forest-459225.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;  
+    
+}
+
+#header > * {
+    z-index: 10;
+}
+
+#header::after {
+content:"";
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right:0;
+background-color: rgba(0,0,0,0.5);
+}
+
+.profile-image {
+    width: 120px;
+height: 120px;
+background-color: moccasin;
+border-radius: 40%;
+background-image: url(../assets/tumblr_o62lqbUZVV1r0maa4o1_1280.jpg);
+background-size: cover;
+
+}
+
+.profile-name  {
+font-size: 3em;
+font-weight: bold;
+}
+
+.subtext {
+    margin-top: 8px;
+}
